@@ -1,0 +1,441 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* <-------------------------header------------------------> */
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.20),rgba(0, 0, 0, 0.60)),url(./images/young-bearded-man-getting-haircut-by-hairdresser-w-2022-02-02-04-49-04-utc.jpg);
+    background-size: cover;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 4%;
+    padding-right: 5%;
+    bottom: 20px;
+    font-size: 14px;
+}
+.h2{
+    color: #ffffff;
+    margin-right: 614px;
+    margin-top: 10px;
+    font-size: 22px;
+}
+.nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+.nav ul li a{
+    color:  white;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    background-color: #948437;
+    transition: .2s;
+}
+/* <-----------------------home page-------------------------------> */
+  
+.h1{
+    color: #948437;
+    margin-left: 5em;
+    margin-top: 10px;
+    font-size: 80px;
+}
+.span2{
+    color: #ffffff;
+}
+.enter{
+    width: 85px;
+    margin-left: 39rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.p{
+    text-align: center;
+    margin-left: 21em;
+    margin-top: 50px;
+    color: #ffffff;
+    font-size: 20px;
+    width: 500px;
+    margin-bottom: 50px;
+}
+.btn{
+    margin-left: 35rem;
+    height: 70px;
+    width: 200px;
+    margin-top: 40px;
+    border: 5px solid #948437;
+    background: none;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.btn:hover{
+    background: #948437;
+    transform: scale(1.05);
+    transition: 1s;
+    cursor: pointer;
+}
+
+/* <----------------------section1-----------------------------------> */
+.section1{
+    width: 100%;
+    height: 46.5vh;
+}
+.big-div{
+ display: flex;
+}
+.box1{
+    color: #ffffff;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.30),rgba(0, 0, 0, 0.30)),url(./images/pic1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 500px;
+}
+.box2{
+    color: #ffffff;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.30),rgba(0, 0, 0, 0.30)),url(./images/pic2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 500px ;
+    padding-top: 50px;
+
+}
+.box3{
+    color: #ffffff;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.30),rgba(0, 0, 0, 0.30)),url(./images/pic3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 500px;
+}
+
+.duk1{
+    padding-top: 20px;
+    width: 190px;
+    height: 45px;
+    color: #e8db99;
+    margin-top: 150px;
+    margin-left: 105px;
+}
+.duk2{
+    padding-top: 40px;
+    width: 190px;
+    height: 45px;
+    color: #ffffff;
+    margin-top: 90px;
+    margin-left: 180px; 
+    align-items: center;
+}
+.duk3{
+    width: 190px;
+    height: 45px;
+    color: #ffffff;
+    margin-top: 180px;
+    margin-left: 190px; 
+}
+/* <----------------------section2-----------------------> */
+.mother{
+    background-color: #000000;
+    height: 115vh;
+    width: 100%;
+}
+.mother-h1{
+    color: #ffffff;
+    margin-left: 4rem;
+    margin-top: 2px;
+    font-size: 50px;
+    padding-top: 40px;
+}
+.mother-span{
+    color: #948437;
+    font-size:  50px;
+}
+.mother-h2{
+    margin-left: 8rem;
+    color: #948437;
+    font-size: 50px;
+}
+.mother-para{
+    color: #495057;
+    font-size: 20px;
+    width: 650px;
+    margin-top: 5px;
+}
+.mother-para1{
+    color: #495057;
+    font-size: 20px;
+    width: 600px;
+    margin-left: 4rem; 
+}
+
+.father{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.father-son1{
+    background-color: #212529;
+    margin-right: 20px;
+    width: 20%;
+    height: 50vh;
+}
+.father-son2{
+    background-color: #212529;
+    margin-right: 20px;
+    width: 20%;
+    height: 50vh; 
+}
+.father-son3{
+    background-color: #212529;
+    margin-right: 20px;
+    width: 20%;
+    height: 50vh;
+}
+.father-son4{
+    background-color: #212529;
+    margin-right: 20px;
+    width: 20%;
+    height: 50vh;
+}
+.father-h4{
+    margin-left: 50px;
+    margin-top: 15px;
+    color: #ffffff;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.image{
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.son{
+    color: #495057;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.child{
+    height: 40px;
+    background: transparent;
+    border: none;
+    color: #948437;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+/* <----------------------section3-----------------------> */
+.section3{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.30),rgba(0, 0, 0, 0.30)),url(./images/pic2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.home{
+    color: #948437;
+    font-size:  50px;
+    margin-left: 30rem;
+    padding-top: 150px;
+}
+.home1{
+    color: #fff;
+    font-size:  50px;
+    margin-left: 36rem;
+    padding-bottom: 20px;
+     
+}
+
+/* <----------------------section4-----------------------> */
+.stars{
+    display: flex;
+}
+.section4{
+    height: 20vh;
+    width: 70%;
+}
+
+/* <--------------------------section5-------------------> */
+.section5{
+    background-color: #161616;
+    width: 100%;
+    height: 280vh;
+}
+.home2{
+    color: #948437;
+    font-size:  50px;
+    margin-left: 34rem;
+    padding-top: 150px; 
+}
+.home3{
+        color: #fff;
+        font-size:  50px;
+        margin-left: 28rem;
+        padding-bottom: 20px; 
+}
+.hope{
+    display: flex;
+    margin-left: 135px;
+    gap: 30px;
+    padding-top: 50px;
+}
+
+/* <------------------section5 div2-----------------> */
+.move{
+    color: #ffffff;
+    margin-left: 28rem;
+    margin-top: 50px;
+    padding-top: 35px;
+}
+.span5{
+    color: #161616;
+    margin-left: 10px;
+}
+.enter1{
+    width: 85px;
+    margin-left: 550px;
+    margin-top: 50px;
+    margin-bottom: 30px; 
+}
+.paragraph{
+ color: #495057;
+ margin-left: 10rem;
+ font-size: 25px;
+ padding-top: 20px;
+}
+.paragraph1{
+    color: #495057;
+    margin-left: 20rem;
+    font-size: 25px;
+}
+/* <------------------section5 div3-----------------> */
+.grandpa{
+    background-color: #948437;
+    width: 84%;
+    height: 70vh;
+    margin-left: 130px;
+}
+.man{
+    display: flex;
+}
+.man1{
+    margin-left: 22rem;
+    height: 70px;
+    width: 200px;
+    border: 5px solid #030202;
+    background: none;
+    color: #ffffff;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.man1:hover{
+    background: #000000;
+    transform: scale(1.05);
+    transition: 1s;
+    cursor: pointer;
+    color: #fffffF;
+}
+.man2{
+    margin-left: 25px;
+    height: 70px;
+    width: 200px;
+    margin-top: 69px;
+    border: 5px solid #ffffff;
+    background: none;
+    color: #ffffff;
+    margin-bottom: 20px; 
+    cursor: pointer; 
+}
+.man2:hover{
+    background: #ffff;
+    transform: scale(1.05);
+    transition: 1s;
+    cursor: pointer;
+    color: #000000;
+}
+/* <------------------section5 div4-----------------> */
+.section5-div3{
+    display: flex;
+    gap: 50px;
+    margin-left: 125px;
+    margin-top: 100px;
+}
+.div3-1{
+    background-color: #212529;
+    width: 28%;
+    height: 35vh;
+}
+.div3-2{
+    background-color: #212529;
+    width: 29%;
+    height: 37vh;  
+}
+.div3-3{
+    background-color: #212529;
+    width: 28%;
+    height: 35vh;
+}
+.div3-h1{
+    color: #fffffF;
+    margin-left: 92px;
+    margin-top: 30px;
+}
+.div3-p{
+    color: #495057;
+    margin-left: 52px;
+    margin-top: 50px;
+}
+.div3-btn{
+    margin-left: 7rem;
+    margin-top: 35px;
+    height: 50px;
+    color: #948437;
+    background: transparent;
+    border: none;
+}
+/*--------------section5 div5 footer-----------*/
+.div4-logo{
+    margin-left: 46%;
+    margin-top: 100px;
+}
+.div4-ul{
+    margin-left: 38%;
+}
+.copy{
+    color: #ffffff;
+    margin-left: 33%;
+    font-size: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
